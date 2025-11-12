@@ -1,0 +1,9 @@
+h1 {
+  font-size: 2rem;
+  color: #333;
+
+}
+body{
+  justify-content: center;
+  align-items: center;
+}
