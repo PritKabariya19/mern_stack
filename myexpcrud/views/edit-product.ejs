@@ -1,0 +1,10 @@
+<h1>Edit Product</h1>
+<form action="/update-product/<%=mydata._id%>" method="post">
+    Name <input type="text" name="txt1" value="<%=mydata.pname%>"/>
+    <br>
+    Price <input type="text" name="txt2" value="<%=mydata.pprice%>">
+    <br>
+    Details <input type="text" name="txt3" value="<%=mydata.pdetails%>">
+    <br>
+    <input type="submit">
+</form>

@@ -1,0 +1,65 @@
+    /* body {
+      background-color: white;
+      color: black;
+      transition: background-color 0.2s, color 2s;
+    }
+    .dark {
+      background-color: black;
+      color: white;
+    } */
+h1{
+        text-align: center;
+        justify-content: center;
+        background-color: salmon;
+        align-items: center;
+
+}
+#card{
+    display: flex;
+    gap: 20px 10%;
+    height: 200px;
+    width: 100%;
+
+}
+
+.rock{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 33%;
+    border: 2px solid black;
+    margin-left: 26px;
+    width: 250px;
+    background-color: rosybrown;
+}
+.paper{
+    text-align: center;
+        justify-content: center;
+    display: flex;
+    gap: 33%;
+    border: 2px solid black;
+    width: 250px;
+    background-color: beige;
+}
+.seasor{
+    text-align: center;
+        justify-content: center;
+    display: flex;
+    gap: 33%;
+    border: 2px solid black;
+        width: 250px;
+        background-color: silver;
+
+}
+
+.toggle{
+    text-align: center;
+        justify-content: center;
+    display: flex;
+    gap: 33%;
+    border:5px solid black;
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    background-color: yellow;
+}
